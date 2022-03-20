@@ -1,0 +1,88 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: brown;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  padding: .5em;
+}
+main {
+  display: flex;
+}
+main article {
+  flex: 1;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 1em;
+}
+.articles-bolillas {
+  flex: 80%;
+}
+.articles-boton {
+  flex: 20%;
+  text-align: center;
+  display: block;
+}
+article section {
+  flex: 100%;
+  margin-bottom: 1em;
+}
+article section h1 {
+  margin: 0;
+  text-align: center;
+  color: brown;
+}
+article.articles-bolillas div.bolillero {
+  display: block;
+  float: left;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+article.articles-bolillas .bolillero div {
+  display: block;
+  height: 1em;
+  line-height: 1em;
+  width: 3em;
+  float: left;
+  margin: .5em;
+  border-radius: 50%;
+  border: 5px solid brown ;
+  padding: 1em 0;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+article.articles-bolillas .sacadas div {
+  border-color: green ;
+}
+.articles-boton #bolilla-actual {
+  display: block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  margin: .5em auto;
+  color: blue;
+  text-align: center;
+  border: 10px solid blue;
+  border-radius: 50%;
+  font-size: 5em;
+}
+.articles-boton #btn-sacar {
+  display: block;
+  margin: 0 auto;
+  padding: 1em;
+  border: 0;
+  background: red;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  border-radius: 10%;
+}
